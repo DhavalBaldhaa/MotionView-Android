@@ -1,4 +1,4 @@
-<h1 align="center">MediaFilePicker</h1>
+<h1 align="center">MotionView-Android</h1>
 <p align="center">
   <a href="https://jitpack.io/#DhavalBaldhaa/MotionView-Androidr"> <img src="https://jitpack.io/v/DhavalBaldhaa/MotionView-Android/month.svg" /></a>
   <a href="https://jitpack.io/#DhavalBaldhaa/MotionView-Android"> <img src="https://jitpack.io/v/DhavalBaldhaa/MotionView-Android.svg" /></a>

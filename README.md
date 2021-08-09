@@ -30,7 +30,7 @@ Step 3. Add MotionView in your xml file as container
         android:layout_height="match_parent" />
 ```
 
-#Usage
+# Usage
 **Create Font Provider**
 ```
 fontProvider = FontProvider(resources, fonts())

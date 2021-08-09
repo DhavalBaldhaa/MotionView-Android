@@ -1,12 +1,10 @@
 <h1 align="center">MediaFilePicker</h1>
 <p align="center">
-  <a href="https://jitpack.io/#dhaval-baldha1812/mediafilepicker"> <img src="https://jitpack.io/v/dhaval-baldha1812/mediafilepicker/month.svg" /></a>
-  <a href="https://jitpack.io/#dhaval-baldha1812/mediafilepicker"> <img src="https://jitpack.io/v/dhaval-baldha1812/mediafilepicker.svg" /></a>
+  <a href="https://jitpack.io/#DhavalBaldhaa/MotionView-Androidr"> <img src="https://jitpack.io/v/DhavalBaldhaa/MotionView-Android/month.svg" /></a>
+  <a href="https://jitpack.io/#DhavalBaldhaa/MotionView-Android"> <img src="https://jitpack.io/v/DhavalBaldhaa/MotionView-Android.svg" /></a>
 </p>
 
 MotionView is android library which will help you to create Snapchat-like text stickers and image stickers. After adding you can manipulate then using gesture
-
-<img src="https://github.com/DhavalBaldhaa/MediaFilePicker/blob/master/app/screenshots/img1.png" alt="screenshot" width="200" height="400">
 
 # Installation
 Step 1. Add the JitPack repository to your build file
@@ -20,7 +18,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.DhavalBaldhaa:motionview:release_version'
+    implementation 'com.github.DhavalBaldhaa:MotionView-Android:Tag'
 }
 ```
 
@@ -32,6 +30,7 @@ Step 3. Add MotionView in your xml file as container
         android:layout_height="match_parent" />
 ```
 
+#Usage
 **Create Font Provider**
 ```
 fontProvider = FontProvider(resources, fonts())

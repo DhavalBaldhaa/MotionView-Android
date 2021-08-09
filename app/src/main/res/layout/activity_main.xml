@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.dhavalbaldha.motionview.MotionView
+        android:id="@+id/motionView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/lyTextEditPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnDecreaseTextSize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:src="@drawable/ic_neg_1" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnIncreaseTextSize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:src="@drawable/ic_plus_1" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnChangeColor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:src="@drawable/ic_format_color_text" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnChangeFont"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:src="@drawable/ic_text_fields" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:src="@drawable/ic_mode_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="5dp">
+
+        <Button
+            android:id="@+id/btnAddText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/add_text" />
+
+        <Button
+            android:id="@+id/btnAddSticker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="@string/add_sticker" />
+    </LinearLayout>
+</RelativeLayout>
